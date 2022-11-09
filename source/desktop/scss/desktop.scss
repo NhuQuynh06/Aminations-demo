@@ -1,0 +1,43 @@
+/* > root */
+@import "../scss/bootstrap-4.1.2/scss/functions";
+@import "variables";
+@import "mixins/font-style";
+@import "mixins/story-image";
+@import "mixins/no-padding-margin-border";
+/* > font-awesome*/
+
+// > bootstrap
+@import "../scss/bootstrap-4.1.2/scss/mixins";
+@import "../scss/bootstrap-4.1.2/scss/root";
+@import "../scss/bootstrap-4.1.2/scss/reboot";
+@import "../scss/bootstrap-4.1.2/scss/grid";
+@import "../scss/bootstrap-4.1.2/scss/tables";
+@import "../scss/bootstrap-4.1.2/scss/forms";
+@import "../scss/bootstrap-4.1.2/scss/buttons";
+@import "../scss/bootstrap-4.1.2/scss/dropdown";
+@import "../scss/bootstrap-4.1.2/scss/alert";
+@import "../scss/bootstrap-4.1.2/scss/media";
+@import "../scss/bootstrap-4.1.2/scss/close";
+@import "../scss/bootstrap-4.1.2/scss/modal";
+
+// > content
+@import "fonts";
+@import "icons"; // đã thống giữa trang chính và trang con
+@import "type"; // đã thống giữa trang chính và trang con
+
+
+// style global
+@import "layout";
+@import "fyi"; // đã thống giữa trang chính và trang con
+@import "story"; // đã thống giữa trang chính và trang con
+@import "styles";
+@import "article"; // đã thống giữa trang chính và trang con
+@import "slick"; // đã thống giữa trang chính và trang con
+@import "d-audio-player"; // đã thống giữa trang chính và trang con
+@import "d-comment"; // đã thống giữa trang chính và trang con
+@import "template";
+@import "./animations.scss";
+
+
+
+/* > components */

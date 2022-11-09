@@ -1,0 +1,424 @@
+.icon {
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin: 0 auto;
+}
+
+.icon_ver2 {
+    width: 25px;
+    height: 23px;
+    display: inline-block;
+    margin-right: 3px;
+    margin-bottom: -3px;
+}
+
+.icon {
+    &-report {
+        background: url(../img/icon-report.png) center center no-repeat;
+    }
+
+    &-mobile {
+        background: url(../img/icon-mobile.png) center center no-repeat;
+    }
+
+    &-qoute {
+        background: url(../img/icon-qoute.png) center center no-repeat;
+    }
+
+    &-facebook {
+        background: url(../img/icon-facebook.png) center center no-repeat;
+    }
+
+    &-twitter {
+        background: url(../img/icon-twitter.png) center center no-repeat;
+    }
+
+    &-mail {
+        background: url(../img/icon-mail.png) center center no-repeat;
+    }
+
+    &-video {
+        background: url(../img/icon-video.png) center center no-repeat;
+    }
+
+    &-photo {
+        background: url(../img/icon-photo.png) center center no-repeat;
+    }
+
+    &-goal {
+        background: url(../img/icon-goal.png) center center no-repeat;
+    }
+
+    &-conner {
+        background: url(../img/icon-conner.png) center center no-repeat;
+    }
+
+    &-yellow {
+        background: url(../img/icon-yellow.png) center center no-repeat;
+    }
+
+    &-red {
+        background: url(../img/icon-red.png) center center no-repeat;
+    }
+
+    &-substitute {
+        background: url(../img/icon-substitute.png) center center no-repeat;
+    }
+
+    &-start {
+        background: url(../img/icon-start.png) center center no-repeat;
+    }
+
+    &-tatic {
+        background: url(../img/icon-tatic.png) center center no-repeat;
+    }
+
+    &-stadium {
+        background: url(../img/icon-stadium.png) center center no-repeat;
+    }
+
+    &-time {
+        background: url(../img/icon-time.png) center center no-repeat;
+    }
+
+    &-fault {
+        background: url(../img/icon-fault.png) center center no-repeat;
+    }
+
+    &-jnjure {
+        background: url(../img/icon-jnjure.png) center center no-repeat;
+    }
+
+    &-penalty {
+        background: url(../img/icon-penalty.png) center center no-repeat;
+    }
+
+    &_eM {
+        background: url(../img/icon_eM.png) center center no-repeat;
+    }
+
+    &_live {
+        background: url(../img/icon_live.png) center center no-repeat;
+    }
+
+    &_live_ver2 {
+        background: url(../img/icon_live_ver2.png) center center no-repeat;
+    }
+
+    &_longform {
+        background: url(../img/icon_longform.png) center center no-repeat;
+    }
+
+    &_audio {
+        background: url(../img/icon-audio.png) center center no-repeat;
+    }
+
+    &_chart {
+        background: url(../img/icon-chart.png) center center no-repeat;
+    }
+
+    &_img {
+        background: url(../img/icon-img.png) center center no-repeat;
+    }
+
+    &_mess {
+        background: url(../img/icon-mess.png) center center no-repeat;
+    }
+
+    &_video_ver2 {
+        background: url(../img/icon-video_ver2.png) center center no-repeat;
+    }
+
+    &_NDO {
+        background: url(../img/NDO-prefix.png) center center/32px no-repeat;
+        width: 35px;
+        position: relative;
+        top: 3px;
+    }
+}
+
+// ========================================================
+// ============================ style icon ================
+// ========================================================
+span.icon-images {
+    background: url(../img/icon-img_ver2.png) center center no-repeat;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+span.icon-analytics {
+    background: url(../img/icon-info.png) center center no-repeat;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+span.icon-eM {
+    background: url(../img/eM_ver2.png) center center no-repeat;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+span.icon-longform {
+    background: url(../img/icon_longform.png) center center no-repeat;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+span.icon-info {
+    background: url(../img/icon-info.png) center center no-repeat;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+span.icon-video {
+    background: url(../img/icon-video_ver3.png) center center no-repeat;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+span.icon-headphones {
+    background: url(../img/icon-headphones.png) center left 14px no-repeat;
+    background-color: rgba(225, 225, 225, .8)
+}
+
+// icon fontawesome
+.far,
+.fas,
+.fab {
+    display: block;
+    width: 16px;
+    height: 16px;
+}
+
+.fa-search {
+    background: url(../img/fa-search.png?v14-0107) center center/16px no-repeat;
+}
+
+.fa-newspaper {
+    background: url(../img/fa-newspaper.png?v14-0107) center center/16px no-repeat;
+}
+
+.fa-map-marker-alt {
+    background: url(../img/fa-map-marker-alt.png?v14-0107) center center/12px no-repeat;
+}
+
+.fa-envelope-open-text {
+    background: url(../img/fa-envelope-open-text.png?v14-0107) center center/16px no-repeat;
+}
+
+.fa-star {
+    background: url(../img/fa-star.png) center center/14px no-repeat;
+}
+
+.fa-facebook-f {
+    background: url(../img/fa-facebook-f.png) center center/13px no-repeat;
+    height: 23px;
+}
+
+.fa-link {
+    background: url(../img/fa-link.png) center center/23px no-repeat;
+    width: 22px;
+}
+
+.fa-envelope {
+    background: url(../img/fa-envelope.png) center center/20px no-repeat;
+    width: 20px;
+}
+
+.fa-print {
+    width: 20px;
+    height: 20px;
+    background: url(../img/fa-print.png) center center/20px no-repeat;
+}
+
+.fa-bookmark {
+    background: url(../img/fa-bookmark.png) center center/15px no-repeat;
+    height: 20px;
+}
+
+.fa-google {
+    background: url(../img/fa-google.png) center center/13px no-repeat;
+}
+
+.fi-microphone-alt {
+    background: url(../img/fi-microphone-alt.png) center center/13px no-repeat;
+    width: 13px;
+    height: 19px;
+    display: block;
+}
+
+.fa-play {
+    background: url(../img/fa-play.png) center center/10px no-repeat;
+}
+
+.fa-pause {
+    background: url(../img/fa-pause.png) center center/16px no-repeat;
+}
+
+.fa-tags {
+    height: 22px;
+    display: block;
+    width: 22px;
+    background: url(../img/fa-tags.png) center center/22px no-repeat;
+}
+
+.fa-user {
+    background: #ADB5BD url(../img/fa-user.png) center center/9px no-repeat;
+}
+
+.fa-calendar-alt {
+    width: 13px;
+    height: 15px;
+    background: url(../img/fa-calendar-alt.png) center center/13px no-repeat;
+}
+
+.fa-folder-tree {
+    width: 14px;
+    height: 20px;
+    background: url(../img/fa-folder-tree.png) center center/14px no-repeat;
+}
+
+.fa-check-circle.checked {
+    background: #fff url(../img/fa-check-circle.png) center center/20px no-repeat;
+}
+
+.fa-check-circle.uncheck {
+    background: #fff url(../img/fa-check-circle-uncheck.png) center center/20px no-repeat;
+}
+
+.fa-pause-circle {
+    background: url(../img/fa-pause-circle.png) center center/60px no-repeat;
+}
+
+.fa-play-circle {
+    background: url(../img/fa-play-circle.png) center center/60px no-repeat;
+}
+
+.fa-volume {
+    background: url(../img/fa-volumn-black.png) center center/22px no-repeat;
+    width: 26px;
+    height: 24px;
+    display: block;
+}
+
+.fa-volume-slash {
+    background: url(../img/fa-volume-slash.png) center center/26px no-repeat;
+    width: 26px;
+    height: 24px;
+    display: block;
+}
+
+.fa-toggle-on {
+    width: 32px;
+    height: 28px;
+    display: block;
+    background: url(../img/fa-toggle-on.png) center center/32px no-repeat;
+}
+
+.fa-toggle-off {
+    width: 32px;
+    height: 28px;
+    display: block;
+    background: url(../img/fa-toggle-off.png) center center/32px no-repeat;
+}
+
+.fa-reply {
+    background: url(../img/fa-reply.png) center center/16px no-repeat;
+}
+
+.fa-thumbs-up {
+    background: url(../img/fa-thumbs-up.png) center center/16px no-repeat;
+}
+
+.fa-chevron-right {
+    background: url(../img/fa-chevron-down_ver3.png) center center/7.5px no-repeat;
+}
+
+.fa-award {
+    background: url(../img/fa-award.png?v14-0107) center center/32px no-repeat;
+    width: 32px;
+    height: 36px;
+}
+
+.fa-long-arrow-left {
+    background: url(../img/fa-long-arrow-left.png?v14-0107) center center/30px no-repeat;
+}
+
+.fa-long-arrow-right {
+    background: url(../img/fa-long-arrow-right.png?v14-0107) center center/30px no-repeat;
+}
+
+.fa-chevron-down {
+    background: url(../img/fa-chevron-down.png?v14-0107) center center/8px no-repeat;
+}
+
+
+// icon menu trong trang user
+.user-info {
+
+    // style icon
+    .fa-user {
+        background: #E9ECEF url(../img/fa-user_ver2.png) center center/15px no-repeat;
+    }
+
+    .fa-history {
+        background: #E9ECEF url(../img/fa-history-bold.png) center center/17px no-repeat;
+    }
+
+    .fa-bookmark {
+        background: #E9ECEF url(../img/fa-bookmark_ver2.png) center center/13px no-repeat;
+    }
+
+    .fa-key {
+        background: #E9ECEF url(../img/fa-key.png) center center/17px no-repeat;
+    }
+
+    .fa-sign-out-alt {
+        background: #E9ECEF url(../img/fa-sign-out-alt-bold.png) center center/17px no-repeat;
+    }
+}
+
+// icon bling
+@-webkit-keyframes blinker {
+    from {
+        opacity: 1.0;
+    }
+
+    to {
+        opacity: 0.0;
+    }
+}
+
+.icon_live_ver1 {
+    background: url(../img/icon-circle.png) center center/14px no-repeat;
+    text-decoration: blink;
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 0.6s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-direction: alternate;
+    margin-right: 6px;
+    width: 15px;
+}
+
+.icon_live_ver1+.icon_live_ver2 {
+    margin-left: -8px;
+}
+
+.icon_live_ver2 {
+    background: url(../img/LIVE.png) center center/60px no-repeat;
+    width: 60px;
+    position: relative;
+
+    &::after {
+        position: absolute;
+        content: "";
+        background: url(../img/icon-circle.png) center center/14px no-repeat;
+        text-decoration: blink;
+        -webkit-animation-name: blinker;
+        -webkit-animation-duration: 0.6s;
+        -webkit-animation-iteration-count: infinite;
+        -webkit-animation-timing-function: ease-in-out;
+        -webkit-animation-direction: alternate;
+        margin-right: 6px;
+        width: 15px;
+        height: 15px;
+        left: 5px;
+        top: 4px;
+    }
+}

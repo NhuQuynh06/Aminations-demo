@@ -1,0 +1,63 @@
+// Noto Serif
+@font-face {
+    font-family: 'NotoSerif';
+    src: url('../fonts/NotoSerif/NotoSerif-SemiBold.ttf');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'NotoSerif';
+    src: url('../fonts/NotoSerif/NotoSerif-Medium.ttf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'NotoSerif';
+    src: url('../fonts/NotoSerif/NotoSerif-Regular.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'NotoSerif';
+    src: url('../fonts/NotoSerif/NotoSerif-Italic.ttf');
+    font-weight: 300;
+}
+
+// PlayfairDisplay
+@font-face {
+    font-family: $font-brand-website;
+    src: url('../fonts/PlayfairDisplay/PlayfairDisplay-Bold.ttf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: $font-brand-website;
+    src: url('../fonts/PlayfairDisplay/PlayfairDisplay-Black.ttf');
+    font-weight: 800;
+}
+
+
+// Roboto
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/Roboto-Bold.ttf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/Roboto-Medium.ttf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/Roboto-Regular.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/Roboto-Italic.ttf');
+    font-weight: 300;
+}

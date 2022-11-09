@@ -1,0 +1,339 @@
+@import "../scss/bootstrap-4.1.2/scss/functions";
+@import "../scss/variables";
+@import "../scss/bootstrap-4.1.2/scss/mixins";
+@import "./type";
+
+.btn-primary {
+    color: #fff;
+    background-color: $primary;
+    border-color: $primary;
+
+    &:hover {
+        color: #fff;
+        background-color: #aa260c;
+        border-color: #9e230b
+    }
+
+    &.disabled,
+    &:disabled {
+        color: #fff;
+        background-color: $primary;
+        border-color: $primary
+    }
+
+    &:not(:disabled):not(.disabled):active,
+    &:not(:disabled):not(.disabled).active,
+    .show>&.dropdown-toggle {
+        color: #fff;
+        background-color: #9e230b;
+        border-color: #92210a
+    }
+
+}
+
+// > COMMENT
+.box-comment {
+
+    .box-heading {
+        @include text-heading-2;
+
+    }
+
+    .box-content {
+        margin-top: $spacer-1;
+
+        >.input {
+            @include clearfix();
+
+            textarea {
+                height: 80px;
+                padding: $spacer-3;
+                border: 1px solid $gray-300;
+            }
+
+            .note {
+                color: $gray-600;
+                margin-top: $spacer-0;
+            }
+
+
+            .login-path {
+                color: $gray-600;
+                display: flex;
+                align-items: center;
+
+                >* {
+                    margin-right: $spacer-1;
+                }
+
+                >a {
+                    color: $secondary;
+                    font-weight: 600;
+
+                    &:hover {
+                        color: $primary;
+                    }
+                }
+            }
+        }
+
+        >.user {
+            margin-top: $spacer-3;
+
+            .avatar-comment {
+                display: flex;
+                display: none;
+                justify-content: center;
+                align-items: center;
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                background-color: #7ed321;
+                margin-right: $spacer-4;
+
+                i {
+                    font-size: 24px;
+                    color: #fff;
+                }
+            }
+
+            .content-comment {
+                padding-bottom: 10px;
+                width: calc(100% - 74px);
+
+                .info-author {
+                    @include text-heading-3;
+
+                    span {
+                        font-weight: 300;
+                        font-size: 14px;
+                    }
+                }
+
+                .text {
+                    color: $gray-700;
+                }
+            }
+        }
+
+        .inner-comment {
+            border-top: 1px dotted #dedede;
+            @include clearfix();
+        }
+
+        .topic-comment {
+            display: flex;
+            justify-content: flex-start;
+            padding: $spacer-4 0;
+            flex-flow: wrap row;
+            @include clearfix();
+        }
+
+        .sub-comment {
+            @include clearfix();
+            margin-left: 75px;
+            padding: $spacer-3 0;
+            border-top: 1px dotted #dedede;
+
+            .comment {
+                display: flex;
+                justify-content: flex-start;
+                flex-flow: row wrap;
+            }
+
+            .content {
+                width: calc(100% - 74px);
+            }
+        }
+
+        .action-comment {
+            margin-top: $spacer-0;
+
+            a {
+                color: #3B5998;
+                font-weight: 400;
+                display: inline-block;
+                margin-right: 15px;
+
+                &.cmt-like-ed {
+                    color: #999;
+                }
+            }
+
+            i {
+                font-size: 13px;
+                margin-right: 5px;
+            }
+        }
+
+        .action-comment-reply {
+            margin-top: $spacer-1;
+
+            textarea {
+                width: 100%;
+                height: 75px;
+            }
+        }
+    }
+}
+
+// > MODAL
+#modal-content>div>label {
+    width: 50%;
+    float: left
+}
+
+#dialog {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .4);
+    z-index: 9999999;
+    display: none;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0 0 10px rgba(0, 0, 0, .4);
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .4);
+    -box-shadow: 0 0 10px rgba(0, 0, 0, .4);
+
+    >div {
+        max-width: 600px;
+        width: 80%;
+        position: fixed;
+        top: 10%;
+        left: 50%;
+        transform: translateX(-50%);
+        background: #fff;
+        overflow: hidden;
+        box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, .4)
+    }
+
+    .header {
+        font-size: 1em;
+        line-height: 1.4;
+        text-transform: uppercase;
+        padding: $spacer-1 $spacer-3;
+        background: $primary;
+        color: #fff;
+        font-weight: 600;
+    }
+
+    .content {
+        padding: 20px 15px;
+        line-height: 1.4;
+
+        >div,
+        >form {
+            width: 100%;
+            margin-top: 5px
+        }
+
+        >div p {
+            margin-bottom: 10px
+        }
+
+        label {
+            display: block;
+            color: #888;
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 11px;
+            margin-bottom: 0;
+        }
+
+        input[type=text] {
+            width: 100%;
+            box-sizing: border-box;
+            padding: 7px;
+            border: 1px solid #ccc;
+            border-radius: 3px
+        }
+
+        input[type=radio] {
+            position: relative;
+            top: -2px
+        }
+
+        form label {
+            text-transform: none;
+            color: #555;
+            font-size: 1.4rem;
+            padding: 5px 0;
+            border-radius: 5px
+        }
+
+        form p {
+            margin: 8px 0
+        }
+
+        p.label {
+            text-transform: uppercase;
+            color: #555;
+            font-size: 1.2em
+        }
+
+        blockquote {
+            font-style: italic;
+            font-size: 1.3em;
+            line-height: 1.2;
+            margin: 5px 20px 15px
+        }
+
+        blockquote.error {
+            color: red
+        }
+
+        textarea {
+            width: 100%;
+            height: 100px;
+            padding: 10px;
+            font-size: 12px;
+            color: #555;
+            border: 1px solid #ccc;
+            border-radius: 3px
+        }
+    }
+
+    .action {
+        text-align: center;
+        padding: $spacer-1 $spacer-10;
+        background: #eee;
+
+        button {
+            border: 1px solid #ccc;
+            background: #fff;
+            border-radius: 5px;
+            padding: 5px 10px;
+            cursor: pointer;
+            margin: 0 10px;
+            white-space: nowrap
+        }
+
+        button.btnSubmit,
+        button:hover {
+            border-color: #ba1b1e;
+            color: #ba1b1e
+        }
+
+        button.btnSubmit {
+            display: none
+        }
+    }
+
+    table {
+        border: 1px solid #ccc;
+
+        th {
+            background-color: #15a1b1;
+            color: #fff;
+            text-align: center
+        }
+
+        td {
+            padding: 5px
+        }
+    }
+}
